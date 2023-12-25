@@ -93,3 +93,59 @@
 .icon i{
     font-size: 1rem;
 }
+
+/* section edit */
+.section_banner{
+    margin-top: 50px;
+    background-image: url("images/179e278f-77ee-44c2-bf39-9f00b0cd08e01658752429301-Handbags_Desk.webp");
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section_banner:hover{
+    background-image: url("images/6107d28b-2bcb-44e6-9743-655b54550b8f1659020199598-Workwear_Desk--1-.webp");
+}
+.attach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fcfcfc;
+    background-color: #535766;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 44px;
+    width: 300px;
+    position:fixed;
+    top: 330px;
+    right: -127px;
+    rotate: -90deg;
+}
+.bell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    background-color: #1d85fc;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    color: #fcfcfc;   
+    position: fixed;
+    top: 510px;
+    right: 20px; 
+}
+@keyframes blink{
+    from{background-color: orange;}
+    to {background-color: yellow;};
+}
+section p{
+    text-align: center;
+    font-size: 0.7rem;
+    width: 35px;
+    border-radius: 2px;
+    position: fixed;
+    right:5px;
+    top: 495px;
+    background-color: orange;
+    animation: blink 1s linear 0s infinite normal;
+}
