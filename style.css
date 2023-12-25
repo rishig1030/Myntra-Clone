@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header styling */
+
+.header{
+    
+    height: 80px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header:hover{
+    border-bottom: 2px inset black;
+}
+.header_logo{
+    background-image: url("images/images.png");
+    height: 36px;
+    width: 55px;
+    background-size: cover;
+}
+.header a{
+    text-decoration: none;
+}
