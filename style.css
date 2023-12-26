@@ -138,7 +138,7 @@
     from{background-color: orange;}
     to {background-color: yellow;};
 }
-section p{
+.side_banner p{
     text-align: center;
     font-size: 0.7rem;
     width: 35px;
@@ -149,3 +149,23 @@ section p{
     background-color: orange;
     animation: blink 1s linear 0s infinite normal;
 }
+.collection p{
+    font-size: 1.8rem;
+    color: #3e4152;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.collection_img{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+.collection_img img{
+    width: 16.66%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+
+/* footer */
