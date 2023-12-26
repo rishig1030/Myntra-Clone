@@ -171,11 +171,11 @@
 /* footer */
 footer{
     background-color: #FAFBFC;
-    padding-top: 50px;
     margin-top: 30px;
     padding: 0 150px 0 150px;
 }
 .footer1{
+    padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -191,4 +191,16 @@ footer{
 .social i{
     height: 40px;
     width: 30px;
+}
+.footer2{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.address{
+    font-size: 0.9rem;
+    color: #696b79;
+}
+.mobile{
+    display: flex;
+    justify-content: space-between;
 }
